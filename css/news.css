@@ -3,14 +3,13 @@
 }
 
 body {
-	font-family: Lato, sans-serif;
     margin-top: 20px;
 	padding: 1rem;
 	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: rgba(20, 20, 20, 1);
+	background: #111;
 }
 
 img {
@@ -54,22 +53,22 @@ figure::after {
 }
 
 figcaption {
-
-	position: absolute;
+    position: absolute;
     top: 20%;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	place-items: center;
-	text-align: center;
-	padding: 1rem;
-	color: white;
-	font-size: 25px;
-	z-index: 1;
-	opacity: 1;
-	transition: opacity 600ms, transform 600ms;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    font-size: 22px;
+    z-index: 1;
+    opacity: 1;
+    transition: opacity 600ms, transform 600ms;
+    text-shadow: 2px 2px 4px black; /* Добавлено свойство text-shadow для черной обводки */
 }
 
 a:is(:hover, :focus) figure::after {

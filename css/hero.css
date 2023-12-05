@@ -1,5 +1,6 @@
 body {
     overflow: hidden;
+    background-color: #111;
 }
 
 h1 {
@@ -15,7 +16,7 @@ h1 {
  .container {
     width: 1000px; /* Ширина слоя */
     height: 55%;
-    background: #181818; /* Цвет фона левой колонки */
+    background: #111; /* Цвет фона левой колонки */
     position: absolute;
     top: 45%;
     left: 40%;
@@ -31,7 +32,7 @@ h1 {
  .content {
     margin-right: 0px; /* Отступ справа НЕ РАБОТАЕТ :D */
     padding: 10px; /* Отступы внутри правого блока */
-    background: #181818; /* Цвет фона правого блока */
+    background: #111; /* Цвет фона правого блока */
    }
 
 .prokrutka-info {
@@ -76,7 +77,7 @@ h1 {
 	position: absolute;
     top: 70%;
     left: 0;
-    transform: translate(-100%, -50%);
+    transform: translate(-100%, -42%);
 }
 
 .left-arrow img {
@@ -84,5 +85,5 @@ h1 {
     position: absolute;
     left: 0;
     top: 0;
-    transform: translate(30%, 0%);
+    transform: translate(30%, 50%);
 }

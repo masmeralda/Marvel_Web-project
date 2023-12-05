@@ -1,5 +1,6 @@
 body {
     overflow: hidden;
+    background-color: #111;;
 }
 
 main {
@@ -27,7 +28,7 @@ p {
 /* стили для изображения cлева */
 .left-full-image {
     position: absolute;
-    top: -70px; /* чтобы изображение было сверху страницы */
+    top: 0px; 
     left: 0;
     width: 50%;
     height: 100vh; /* Занимает всю высоту страницы */
@@ -37,7 +38,7 @@ p {
 /* стили для изображения справа */
 .right-full-image {
     position: absolute;
-    top: -70px; /* чтобы изображение было сверху страницы */
+    top: 0px; 
     right: 0;
     height: 100vh; /* Занимает всю высоту страницы */
     overflow: hidden;

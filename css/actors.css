@@ -1,5 +1,6 @@
 body {
     overflow: hidden;
+    background-color: #111;
 }
 
 h1 {
@@ -14,7 +15,7 @@ p {
 .container {
     width: 1000px; /* Ширина слоя */
     height: 55%;
-    background: #181818; /* Цвет фона левой колонки */
+    background: #111; /* Цвет фона левой колонки */
     position: absolute;
     top: 45%;
     left: 40%;
@@ -29,7 +30,7 @@ p {
 .content {
     margin-left: 130px; /* Отступ слева */
     padding: 10px; /* Отступы внутри правого блока */
-    background: #181818; /* Цвет фона правого блока */
+    background: #111; /* Цвет фона правого блока */
    }
 
 .image-block {
@@ -41,7 +42,7 @@ p {
 	position: absolute;
     top: 70%;
     right: 0;
-    transform: translate(83%, -50%);
+    transform: translate(83%, -42%);
 }
 
 .img-menu {
@@ -84,7 +85,7 @@ p {
     position: absolute;
     right: 0;
     top: 0;
-    transform: translate(-250%, 0%);
+    transform: translate(-250%, 50%);
 }
 
 

@@ -1,5 +1,4 @@
-// этот скрипт для того, чтобы менюшки справа и слева не возвращались в самое начало
-// и это нихера не работает
+// скрипт для корректной работы бокового меню
 document.addEventListener("DOMContentLoaded", () => {
     const menu = document.getElementById("menu");
 
